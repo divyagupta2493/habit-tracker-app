@@ -1,0 +1,33 @@
+{
+  "name": "habit-tracker-app",
+  "version": "0.1.0",
+  "description": "Habit tracker app, where we can define habits and track them",
+  "main": "app.js",
+  "keywords": [
+    "habit",
+    "tracker",
+    "tracking"
+  ],
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/divyagupta2493/habit-tracker-app.git"
+  },
+  "author": "Divya Gupta",
+  "license": "MIT",
+  "homepage": "https://github.com/divyagupta2493/habit-tracker-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^7.0.3",
+    "node-sass-middleware": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
